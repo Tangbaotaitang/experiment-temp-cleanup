@@ -1,0 +1,4 @@
+interface:
+  display_name: "Experiment Temp Cleanup"
+  short_description: "Log experiments and clean temporary files after validation"
+  default_prompt: "Use $experiment-temp-cleanup for this experiment. Record all attempts, outcomes, and failure causes in one Markdown table. After validation passes, remove disposable scripts, isolated test dependencies, and temporary outputs, check integrity, and preserve formal execution and reproduction materials."
